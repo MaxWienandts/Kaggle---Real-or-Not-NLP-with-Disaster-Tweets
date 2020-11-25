@@ -2,8 +2,8 @@
 Natural Language Processing model using spaCy
 
 As the Titanic model, this project is to familiarize with the basic tools of Python regarding natural language processing.\
-Again, any of the model used here are state of the art.\
-The model used in this projects are: naive Bayes; logit; random forest. \
+Again, any of the models used here are state of the art.\
+The models used in this projects are: naive Bayes; logit; random forest. \
 Best score on Kaggle (naive Bayes): 0.77811
 
 However, these models are extremely limited.\
@@ -15,8 +15,4 @@ The correct would be to have a full dictionary and group the new words (that doe
 E.g., if we only have flood in our train, we could consider the words inundation and alluvion as having the same probabilities as flood.
 
 Lastly, to solve natural language processing problems, the most adequate is to use neural networks.\
-For instance, the use of recurrent nerual network would greatly increase the performance of our model.\
-RNN have the advantage of considering the whole sentence and not only one word in separate. \
-This fact alone may be a disadvantage because the model would not be able to identify similar sentences with small variations.\
-However, this can be fixed using a layer with dropout. This layer "forgets" part of the sentence to avoid overfit.\
-Moreover, RNN applies the same weight vector for all layers. This simulate an effect of the model identifying the key words of a sentence, and the sentences "The forest is in fire" and "A fire in the forest" would have the same classification.
+For instance, the use of recurrent nerual network would greatly increase the performance of our model. RNN have the advantage of considering the whole sentence and not only one or two words in separate.
